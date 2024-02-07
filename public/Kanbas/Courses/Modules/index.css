@@ -65,3 +65,27 @@
     background-color: red;
     color: white;
   }
+
+  .published-button {
+    background-color: green;
+    color: white;
+  }
+
+  .list-group-item-link {
+    color: black
+  }
+
+  .list-group-item-link-red {
+    color: red
+  }
+
+  .h4-calc {
+    padding-top: 20px;
+  }
+
+  .calc {
+    color: red;
+    font-size: 10px;
+    float: right;
+    margin-top: -50px;
+  }

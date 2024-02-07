@@ -177,7 +177,7 @@
                 </li>
                 <li class="list-group-item">
                   <i class="fa fa-ellipsis-v"></i> 
-                  <span class="indent-course-material"><a href="">Introduction to Web Development Links to an external site</a></span>
+                  <span class="indent-course-material"><a class="list-group-item-link-red" href="">Introduction to Web Development Links to an external site</a></span>
                   <span class="float-end">
                     <i class="fa fa-check-circle text-success"></i>
                     <i class="fa fa-ellipsis-v ms-2"></i>
@@ -185,7 +185,7 @@
                 </li>
                 <li class="list-group-item">
                   <i class="fa fa-ellipsis-v"></i> 
-                  <span class="indent-course-material"><a href="#">Creating an HTTP server with Node.js Links to an external site</a></span>
+                  <span class="indent-course-material"><a class="list-group-item-link-red" href="#">Creating an HTTP server with Node.js Links to an external site</a></span>
                   <span class="float-end">
                     <i class="fa fa-check-circle text-success"></i>
                     <i class="fa fa-ellipsis-v ms-2"></i>
@@ -193,7 +193,7 @@
                 </li>
                 <li class="list-group-item">
                   <i class="fa fa-ellipsis-v"></i> 
-                  <span class="indent-course-material"><a href="#">Creating a React Application Links to an external site</a></span>
+                  <span class="indent-course-material"><a class="list-group-item-link-red" href="#">Creating a React Application Links to an external site</a></span>
                   <span class="float-end">
                     <i class="fa fa-check-circle text-success"></i>
                     <i class="fa fa-ellipsis-v ms-2"></i>
@@ -270,23 +270,30 @@
       </div>
       <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
         <h3>Course Status</h3>
-        <button type="button">Unpublish</button>
-        <button type="button">Published</button>
-        <ul>
-            <li><a href="temporary">Import Existing Content</a></li>
-            <li><a href="temporary">Import From Commons</a></li>
-            <li><a href="temporary">Choose Home Page</a></li>
-            <li><a href="temporary">View Course Stream</a></li>
-            <li><a href="temporary">New Announcement</a></li>
-            <li><a href="temporary">View Analytics</a></li>
-            <li><a href="temporary">View Course Notifications</a></li>
+        <button type="button"><i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+          Unpublish</button>
+        <button type="button" class="published-button"><i class="fa fa-check-circle" aria-hidden="true"></i>
+          Published</button>
+        <ul class="list-group">
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">Import Existing Content</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">Import From Commons</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">Choose Home Page</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">View Course Stream</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">New Announcement</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">View Analytics</a></li>
+            <li class="list-group-item"><a class="list-group-item-link" href="temporary">View Course Notifications</a></li>
         </ul>
-        <h1>Comming Up</h1>
-        <a href="temporary">View Calculator</a>
+        <div>
+        <h4 class="h4-calc">Comming Up</h4>
+        <a class="calc"href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+           View calendar</a>
+        </div>
+
+        <hr>
         <ul>
-            <li><a href="temporary">Lecture CS4540, 12631 202410 Sep 7 at 11:45am</a></li>
-            <li><a href="temporary">Lecture CS4540, 12631 202410 Sep 11 at 11:45am</a></li>
-            <li><a href="temporary">Lecture CS5610 06, SP23 Sep 11 at 6pm</a></li>
+            <li><a class="list-group-item-link-red" href="temporary">Lecture CS4540, 12631 202410 Sep 7 at 11:45am</a></li>
+            <li><a class="list-group-item-link-red" href="temporary">Lecture CS4540, 12631 202410 Sep 11 at 11:45am</a></li>
+            <li><a class="list-group-item-link-red" href="temporary">Lecture CS5610 06, SP23 Sep 11 at 6pm</a></li>
         </ul>
       </div>
     </div>
