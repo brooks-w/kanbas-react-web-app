@@ -1,0 +1,67 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.list-group-item .indent-course-material {
+    padding-left: 20px;
+}
+
+.right-align-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px
+  }
+
+  .upper-banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .xs-banner-buttons {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .xs-style-banner-anchor {
+    color:white;
+  }
+
+  .module-button-red{
+    background-color: red;
+    color: white;
+  }
