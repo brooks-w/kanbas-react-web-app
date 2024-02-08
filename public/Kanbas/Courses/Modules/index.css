@@ -89,3 +89,16 @@
     float: right;
     margin-top: -50px;
   }
+
+
+.btn.btn-primary.list-group-item:hover,
+.btn.btn-primary.list-group-item:focus,
+.btn.btn-primary.list-group-item:active {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
+
+.btn.btn-primary.list-group-item:focus {
+    outline: none;
+}
