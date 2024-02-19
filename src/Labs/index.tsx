@@ -1,5 +1,5 @@
-import {HashRouter, Link} from 'react-router-dom';
-import {Routes, Route, Navigate} from 'react-router';
+//import {HashRouter, Link} from 'react-router-dom';
+import {Routes, Route, /**Navigate*/} from 'react-router';
 import Assignment3 from "./a3";
 import Assignment4 from "./a4";
 
