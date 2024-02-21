@@ -34,38 +34,6 @@
 .list-group-item .indent-course-material {
     padding-left: 20px;
 }
-
-.right-align-buttons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px
-  }
-
-  .upper-banner {
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: block;
-    padding-bottom: 20px;
-  }
-
-  .xs-banner-buttons {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 20px;
-  }
-
-  .xs-style-banner-anchor {
-    color:white;
-  }
-
-  .module-button-red{
-    background-color: red;
-    color: white;
-  }
-
   .published-button {
     background-color: green;
     color: white;

@@ -12,6 +12,7 @@
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 15px;
   }
   .wd-navigation li.wd-active {
     border-left: 2px solid black;
@@ -24,11 +25,3 @@
     text-decoration: none;
   }
   
-  .x-button{
-    background-color: transparent;
-    color: white;
-    border: none;
-  }
-  .x-button a {
-    color: black;
-  }

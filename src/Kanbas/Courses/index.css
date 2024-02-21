@@ -1,0 +1,13 @@
+.course-header {
+    display: flex;
+    align-items: center;
+    color: red; 
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  .course-header span {
+    color: black;
+    margin-left: 5px;
+  }

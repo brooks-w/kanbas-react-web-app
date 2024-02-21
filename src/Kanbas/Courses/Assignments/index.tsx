@@ -2,13 +2,15 @@ import React from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import { assignments } from "../../Database";
+import TopAssignmentButtons from "./TopButtons";
+
 function Assignments() {
   const { courseId } = useParams();
   const assignmentList = assignments.filter(
     (assignment) => assignment.course === courseId);
   return (
     <>
-      {/* {<!-- Add buttons and other fields here -->} */}
+      <TopAssignmentButtons />
       <ul className="list-group wd-modules">
         <li className="list-group-item">
           <div>

@@ -1,22 +1,27 @@
 import { courses } from "../../Kanbas/Database";
-import { Navigate, Route, Routes, useParams } from "react-router-dom";
+import { useLocation, Navigate, Route, Routes, useParams } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
 import CourseNavigation from "./Navigation";
 import Modules from "./Modules";
 import Home from "./Home";
+import "./index.css";
 import Assignments from "./Assignments";
+import { IoIosArrowForward } from "react-icons/io";
 
 function Courses() {
   const { courseId } = useParams();
+  const { pathname } = useLocation();
+  
   const course = courses.find((course) => course._id === courseId);
   return (
     <div>
-      <h1><HiMiniBars3 /> Course {course?.name}</h1>
+      <h1 className="course-header"><HiMiniBars3 style={{padding: "2px", marginRight: "8px"}}/>{course?.name} ({course?._id}) <IoIosArrowForward style={{color: "grey", marginLeft: "10px"}}/> <span>{pathname.split('/').pop()}</span> </h1>
+      <hr />
       <CourseNavigation />
       <div>
         <div
           className="overflow-y-scroll position-fixed bottom-0 end-0"
-          style={{ left: "320px", top: "50px" }} >
+          style={{ left: "200px", top: "75px" }} >
           <Routes>
             <Route path="/" element={<Navigate to="Home" />} />
             <Route path="Home" element={<Home/>} />

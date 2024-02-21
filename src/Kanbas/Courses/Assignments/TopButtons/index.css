@@ -1,0 +1,39 @@
+
+.assignment-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px
+}
+
+.assignment-input {
+    margin-right: 200px; 
+    padding: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkgrey
+}
+
+.assignment-button {
+    margin-right: 5px; 
+    padding: 8px 12px;
+    border: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+
+.assignment-button.red {
+    background-color: red;
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkgrey
+}
+
+.kebab-button {
+    padding: 5px 1px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkgrey;
+  }
