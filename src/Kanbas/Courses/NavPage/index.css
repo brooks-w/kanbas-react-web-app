@@ -1,0 +1,17 @@
+.navPage {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.courseNav {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.x-button {
+    background-color: transparent;
+    border: none;
+
+}

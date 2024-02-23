@@ -10,9 +10,9 @@ function ModuleList() {
   const modulesList = modules.filter((module) => module.course === courseId);
   const [selectedModule, setSelectedModule] = useState(modulesList[0]);
   return (
-    <>
+    <div className="flex-fill">
     <Buttons />
-    <hr />
+    <hr className="home-hr"/>
       <ul className="list-group wd-modules">
         {modulesList.map((module) => (
           <li
@@ -45,7 +45,7 @@ function ModuleList() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 export default ModuleList;

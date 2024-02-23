@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     color: red; 
-    font-size: 25px;
     padding: 5px;
     margin-top: 10px;
   }
@@ -10,4 +9,54 @@
   .course-header span {
     color: black;
     margin-left: 5px;
+  }
+
+  .upper-banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .xs-banner-chevron {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-top: -5px;
+  }
+
+  .xs-banner-hamburger {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: -5px;
+  }
+
+  .home-hr {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 30px;
+  }
+
+  .custom-fixed {
+    position: fixed;
+    bottom: 0;
+    end: 0;
+    left: 200px;
+    top: 75px;
+  }
+  
+  @media (max-width: 767px) {
+    .custom-fixed {
+      position: static;
+      left: 0; 
+      top: 0; 
+    }
   }

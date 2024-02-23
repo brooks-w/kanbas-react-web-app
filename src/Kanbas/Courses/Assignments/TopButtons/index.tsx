@@ -11,7 +11,7 @@ function TopAssignmentButtons() {
             <button className="assignment-button"><FaPlus style={{marginRight: "1px",}}/> Group</button>
             <button className="assignment-button red"><FaPlus style={{marginRight: "3px"}}/>Assignment</button>
             <button className='kebab-button'><CiMenuKebab style={{color: "black", fontSize: '20px'}}/> </button>
-        </div>
+            </div>
     );
 }
 
