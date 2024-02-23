@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
+import { IoNewspaper } from "react-icons/io5";
 import { Link, useParams } from "react-router-dom";
 import { assignments } from "../../Database";
 import TopAssignmentButtons from "./TopButtons";
@@ -24,7 +25,8 @@ function Assignments() {
             {assignmentList.map((assignment) => (
               <li className="list-group-item">
                 <FaEllipsisV className="me-2" />
-                <Link
+                <IoNewspaper className="me-2" style={{color: "green"}}/>
+                <Link style={{color: "black", textDecoration: "none", fontWeight: "bold"}}
                    to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}>{assignment.title}</Link>
                 <span className="float-end">
                   <FaCheckCircle className="text-success" /><FaEllipsisV className="ms-2" /></span>

@@ -1,25 +1,26 @@
 .align-buttons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px;
-    gap: 2px;
-  }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  gap: 2px;
+  margin-top: 10px;
+}
 
-  .top-row-buttons {
-    display: flex;
-    align-items: center;
-    padding: 5px 12px;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: darkgrey
-  }
+.top-row-buttons {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: darkgrey
+}
 
-  .module-button-red {
-    background-color: red;
-    color: white;
-  }
+.module-button-red {
+  background-color: red;
+  color: white;
+}
 
-  .kebab-button {
-    padding: 5px 1px;
-  }
+.kebab-button {
+  padding: 5px 1px;
+}

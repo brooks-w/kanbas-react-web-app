@@ -7,11 +7,11 @@
 }
 
 .assignment-input {
-    margin-right: 200px; 
     padding: 5px;
     border-width: 1px;
     border-radius: 5px;
-    border-color: darkgrey
+    border-color: darkgrey;
+    margin-right: auto;
 }
 
 .assignment-button {
@@ -21,6 +21,7 @@
     border-width: 1px;
     border-radius: 5px;
     border-color: darkgrey;
+    gap: 2px;
 }
 
 .assignment-button.red {

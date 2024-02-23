@@ -31,9 +31,6 @@
   margin-bottom: 20px;
 }
 
-.list-group-item .indent-course-material {
-    padding-left: 20px;
-}
   .published-button {
     background-color: green;
     color: white;
@@ -47,11 +44,11 @@
     color: red
   }
 
-  .h4-calc {
+  .h4-cal {
     padding-top: 20px;
   }
 
-  .calc {
+  .cal {
     color: red;
     font-size: 10px;
     float: right;
@@ -59,14 +56,51 @@
   }
 
 
+.align-unpublished-published-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 2px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.unpublished-published-buttons {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: darkgrey
+}
+
+.main-status {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.btn.btn-primary.list-group-item {
+    background-color: lightgray;
+    margin-bottom: 3px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+
 .btn.btn-primary.list-group-item:hover,
 .btn.btn-primary.list-group-item:focus,
 .btn.btn-primary.list-group-item:active {
-    background-color: transparent;
-    color: transparent;
-    border: none;
+    background-color: lightgray;
+    border-color: darkgrey ;
+    color: black;
 }
 
-.btn.btn-primary.list-group-item:focus {
-    outline: none;
+.btn.btn-primary.list-group-item.icon-text-button {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 20px;
 }
