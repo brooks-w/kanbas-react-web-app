@@ -13,6 +13,7 @@ function ModuleList() {
     <div className="flex-fill">
     <Buttons />
     <hr className="home-hr"/>
+    <div>
       <ul className="list-group wd-modules">
         {modulesList.map((module) => (
           <li
@@ -45,6 +46,7 @@ function ModuleList() {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }
