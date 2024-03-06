@@ -13,10 +13,10 @@ function ModuleList() {
     <div className="flex-fill">
     <Buttons />
     <hr className="home-hr"/>
-      <ul className="list-group wd-modules">
+      <ul className="wd-modules">
         {modulesList.map((module) => (
           <li
-            className="list-group-item"
+            className=""
             onClick={() => setSelectedModule(module)}
           >
             <div>
@@ -29,9 +29,9 @@ function ModuleList() {
               </span>
             </div>
             {selectedModule._id === module._id && (
-              <ul className="list-group">
+              <ul className="">
                 {module.lessons?.map((lesson) => (
-                  <li className="list-group-item indent-course-material">
+                  <li className="indent-course-material">
                     <FaEllipsisV className="me-2" />
                     {lesson.name}
                     <span className="float-end">

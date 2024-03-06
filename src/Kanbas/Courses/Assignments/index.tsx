@@ -12,8 +12,8 @@ function Assignments() {
   return (
     <>
       <TopAssignmentButtons />
-      <ul className="list-group wd-modules">
-        <li className="list-group-item">
+      <ul className="wd-modules">
+        <li className="">
           <div>
             <FaEllipsisV className="me-2" /> ASSIGNMENTS
             <span className="float-end">
@@ -23,7 +23,7 @@ function Assignments() {
           </div>
           <ul className="list-group">
             {assignmentList.map((assignment) => (
-              <li className="list-group-item">
+              <li className="">
                 <FaEllipsisV className="me-2" />
                 <IoNewspaper className="me-2" style={{color: "green"}}/>
                 <Link style={{color: "black", textDecoration: "none", fontWeight: "bold"}}
