@@ -12,6 +12,11 @@ import ParentStateComponent from "./ParentStateComponent";
 import ReduxExamples from "./ReduxExamples";
 import { useSelector } from "react-redux";
 import { LabState } from "../store";
+import CounterRedux from "./ReduxExamples/CounterRedux";
+import AddRedux from "./ReduxExamples/AddRedux";
+import HelloRedux from "./ReduxExamples/HelloRedux";
+import TodoList from "../a3/todos/TodoList";
+import TodoForm from "./ReduxExamples/todos/TodoForm";
 
 const Assignment4 = () => {
     function sayHello() {
@@ -33,6 +38,7 @@ const Assignment4 = () => {
             <ArrayStateVariable />
             <ParentStateComponent />
             <ReduxExamples/>
+            <TodoForm/>
             <ul className="list-group">
             {todos.map((todo) => (
           <li className="list-group-item" key={todo.id}>
@@ -40,7 +46,11 @@ const Assignment4 = () => {
           </li>
         ))}
       </ul>
-        </div>
+      <CounterRedux/>
+      <AddRedux/>
+      <HelloRedux/>
+      <TodoList/>
+      </div>
     );
 };
 
