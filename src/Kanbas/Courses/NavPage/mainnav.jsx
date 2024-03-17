@@ -1,13 +1,13 @@
 import { IoMdClose } from "react-icons/io";
 import { FaRegUserCircle, FaTachometerAlt, FaBook, FaRegCalendarAlt } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import { courses } from "../../../Kanbas/Database";
+import { courses_db } from "../../../Kanbas/Database";
 import "./index.css";
 
 
 function MainNav() {
     const { courseId } = useParams();
-    const course = courses.find((course) => course._id === courseId);
+    const course = courses_db.find((course) => course._id === courseId);
 
     const links = [
         { label: "Account",   icon: <FaRegUserCircle className="fs-2" />},

@@ -5,13 +5,13 @@ import { FaRecycle } from "react-icons/fa";
 import { CiPlug1 } from "react-icons/ci";
 import { FaBook } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa6";
-import { courses } from "../../../Kanbas/Database";
+import { courses_db } from "../../../Kanbas/Database";
 import "./index.css";
 
 
 function CourseNav() {
   const { courseId } = useParams();
-  const course = courses.find((course) => course._id === courseId);
+  const course = courses_db.find((course) => course._id === courseId);
 
 
   const links = [
