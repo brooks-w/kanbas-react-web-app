@@ -1,0 +1,6 @@
+.edit-delete-buttons {
+    display: flex;
+    float: right;
+    margin-top: -15px;
+    flex-direction: column;
+}
