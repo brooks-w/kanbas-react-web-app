@@ -68,20 +68,19 @@
 }
 
 .container button.add {
-  flex: none; /* Prevents shrinking */
-  padding: 6px; /* Adjust padding to make the button smaller */
-  margin-left: auto; /* Moves the button to the right */
+  flex: none;
+  padding: 6px;
+  margin-left: auto;
   cursor: pointer;
-  background-color: #28a745; /* Green color for "Add" button */
+  background-color: #28a745;
   color: #fff;
   border: none;
 }
 
 .container button.update {
-  flex: none; /* Prevents shrinking */
-  padding: 6px; /* Adjust padding to make the button smaller */
+  flex: none;
+  padding: 6px;
   cursor: pointer;
-  background-color: #007bff; /* Blue color for "Update" button */
   color: #fff;
   border: none;
 }
