@@ -38,3 +38,52 @@
 .mod-hr {
   width:100%;
 }
+
+
+.delete-button {
+  line-height: 5px;  
+  width: 16px;  
+  border-radius: 80%;
+  background-color: red;
+  color: white;
+  float: right;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.container button,
+.container input,
+.container textarea {
+  flex: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.container button.add {
+  flex: none; /* Prevents shrinking */
+  padding: 6px; /* Adjust padding to make the button smaller */
+  margin-left: auto; /* Moves the button to the right */
+  cursor: pointer;
+  background-color: #28a745; /* Green color for "Add" button */
+  color: #fff;
+  border: none;
+}
+
+.container button.update {
+  flex: none; /* Prevents shrinking */
+  padding: 6px; /* Adjust padding to make the button smaller */
+  cursor: pointer;
+  background-color: #007bff; /* Blue color for "Update" button */
+  color: #fff;
+  border: none;
+}
+
+
