@@ -11,11 +11,11 @@ import { FaChevronDown } from "react-icons/fa6";
 import CourseNav from "./NavPage/coursenav";
 import MainNav from "./NavPage/mainnav";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const { pathname } = useLocation();
   
-  const course = courses_db.find((course) => course._id === courseId);
+  const course = courses.find((course) => course._id === courseId);
   return (
     <div>
       <div className="d-none d-md-block">
