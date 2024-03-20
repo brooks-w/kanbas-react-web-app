@@ -19,7 +19,7 @@ function Courses({ courses }: { courses: any[]; }) {
   return (
     <div>
       <div className="d-none d-md-block">
-      <h1 className="course-header"><HiMiniBars3 style={{padding: "2px", marginRight: "8px"}}/>{course?.name} ({course?._id}) <IoIosArrowForward style={{color: "grey", marginLeft: "10px"}}/> <span>{pathname.split('/').pop()}</span> </h1>
+      <h1 className="course-header"><HiMiniBars3 style={{padding: "2px", marginRight: "8px"}}/>{course?.name} ({course?.number}) <IoIosArrowForward style={{color: "grey", marginLeft: "10px"}}/> <span>{pathname.split('/').pop()}</span> </h1>
       <hr className="home-hr"/>
       </div>
       <div className="d-block d-sm-none upper-banner">
